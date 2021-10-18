@@ -24,18 +24,19 @@ The purpose of this project is to provide our customer, Louise, with an analysis
 
 `=COUNTIFS(Kickstarter!$D:$D,"<5000",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"failed",Kickstarter!$R:$R,"plays")` 
 
-  Having confirmed the formulae in this data table, I moved on to preparing the line graph to visualize this data, which required some adjustment to the "Series" (y-axis) and "Categories" (x-axis) data. Initially, creating a line graph pulled in all of the data sources in the data table, and I was able to adjust the data source with a quick right click on the plot area for this graph. Ultimately, I ended up with the following visual representation of the data for outcomes versus launch date: 
+  Having confirmed the formulae in my data table, I moved on to preparing the line graph to visualize these data, which required some adjustment to the "Series" (y-axis) and "Categories" (x-axis) data. Initially, creating a line graph pulled in all of the data sources in the data table. I was able to adjust the data sources to isolate for only "successful," "failed," and "canceled" campaigns by right clicking on the plot area for this graph to adjust the data sources. Ultimately, I ended up with the following visual representation of the data for outcomes versus launch date: 
 
    ![Outcomes versus Goal](https://github.com/Tozerh/Kickstarter-Analysis/blob/main/Resources/Outcomes_versus_Goals.png) 
 
 ### Challenges and Difficulties Encountered
 
-**Formatted file headers created an odd text sizing issue -- decided to resolve with a line break after the header hashes in line 7.** 
+
 
 **Creating a sheet that was not necessary**
 
 **Formula < and <= and >, etc. **
-Sheet
+
+Sheet creation
 
 ## Results
 
