@@ -5,7 +5,7 @@
   
 
 ### 
-The purpose of this project is to provide our customer, Louise, with an analysis of Kickstarter campaign data relevant to her areas of interest: campaign outcomes by launch date and campaign outcomes by funding goals. Because Louise's theater campaign for her own play, *Fever*, is very close to its funding goal, she is very interested in learning more about how her campaign is fairing compared to historical campaigns. 
+  The purpose of this project is to provide our customer, Louise, with an analysis of Kickstarter campaign data relevant to her areas of interest: campaign outcomes by launch date and campaign outcomes by funding goals. Because Louise's theater campaign for her own play, *Fever*, is very close to its funding goal, she is very interested in learning more about how her campaign is fairing compared to historical campaigns. 
 
 ## Analysis and Challenges
 
@@ -30,10 +30,10 @@ The purpose of this project is to provide our customer, Louise, with an analysis
 
 ### Challenges and Difficulties Encountered
 
-**Creating a sheet that was not necessary**:
+1)**Creating a sheet that was not necessary**:
   For the outcomes based on launch date analysis, I started by creating a new sheet that was a copy/paste of the subset of data present after filtering. This was not necessary, and I could have just created a pivot table and then narrowed my scope using filters. The data output was ultimately the same for my graph, but I could have been a bit more efficient had I not created a new sheet. 
 
-**Formula Consistency**: 
+2)**Formula Consistency**: 
   Doing a quality check of my formulae for the outcomes based goals, I found that the total projects in my data table was not matching the total projects in the raw data. I was able to find the culprit: inconsistent ranges for my COUNTIFS criteria. E.g.: 
   
   For the range of goals 1000 - 4999, I intially had this formula: 
