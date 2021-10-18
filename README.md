@@ -34,9 +34,9 @@
   For the outcomes based on launch date analysis, I started by creating a new sheet that was a copy/paste of the subset of data present after filtering. This was not necessary, and I could have just created a pivot table and then narrowed my scope using filters. The data output was ultimately the same for my graph, but I could have been a bit more efficient had I not created a new sheet. 
 
 2)**Formula Consistency**: 
-  Doing a quality check of my formulae for the outcomes based goals, I found that the total projects in my data table was not matching the total projects in the raw data. I was able to find the culprit: inconsistent ranges for my COUNTIFS criteria. E.g.: 
+  Doing a quality check of my formulae for the outcomes based on goals, I found that the total number of projects in my data table was not matching the total projects in the raw data. I was able to find the culprit: inconsistent ranges for my COUNTIFS criteria. E.g.: 
   
-  For the range of goals 1000 - 4999, I intially had this formula: 
+  For the range of goals $1000 - $4999, I intially had this formula: 
   
   `=COUNTIFS(Kickstarter!$D:$D,"<5000",Kickstarter!$D:$D,">1000",Kickstarter!$F:$F,"failed",Kickstarter!$R:$R,"plays")`, 
   
@@ -50,6 +50,7 @@
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+### 
 
 - What can you conclude about the Outcomes based on Goals?
 
