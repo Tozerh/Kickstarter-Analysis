@@ -59,5 +59,10 @@
 
 - What are some limitations of this dataset?
 
-This dataset does not give granular data on when each donation to a particular campaign was amde, only when a campaign was launched and when it ended. A fuller dataset with information on each individual donation wo8uld
+This dataset does not give granular data on when each donation to a particular campaign was amde, only when a campaign was launched and when it ended. A fuller dataset with information on each individual donation to each campaign would allow for more in-depth funding analysis. For example, knowing which months are most conducive to eliciting donations would make it a lot easier to budget out a communications strategy for the life of a given campaign. 
+
 - What are some other possible tables and/or graphs that we could create?
+
+I think that a percentages table to be helpful in interpreting the graph that we created for this project. Additionally, adding in a few descriptive statistics below the table helped me to think about this project a little more deeply. Here is an example of this possible table, for reference: 
+
+![Percentages Table and Descriptive Stats](
