@@ -30,13 +30,22 @@ The purpose of this project is to provide our customer, Louise, with an analysis
 
 ### Challenges and Difficulties Encountered
 
+**Creating a sheet that was not necessary**:
+  For the outcomes based on launch date analysis, I started by creating a new sheet that was a copy/paste of the subset of data present after filtering. This was not necessary, and I could have just created a pivot table and then narrowed my scope using filters. The data output was ultimately the same for my graph, but I could have been a bit more efficient had I not created a new sheet. 
 
+**Formula Consistency**: 
+  Doing a quality check of my formulae for the outcomes based goals, I found that the total projects in my data table was not matching the total projects in the raw data. I was able to find the culprit: inconsistent ranges for my COUNTIFS criteria. E.g.: 
+  
+  For the range of goals 1000 - 4999, I intially had this formula: 
+  
+  `=COUNTIFS(Kickstarter!$D:$D,"<5000",Kickstarter!$D:$D,">1000",Kickstarter!$F:$F,"failed",Kickstarter!$R:$R,"plays")`, 
+  
+  which was not capturing the correct range, not including goals that were both greater than _and equal to_ 1,000. In order to correct this, I needed to adjust my formula to include the ">=" operator, ending up with the formula: 
+  
+  `=COUNTIFS(Kickstarter!$D:$D,"<5000",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"failed",Kickstarter!$R:$R,"plays")`, 
+   
+  which achieved the desired range. 
 
-**Creating a sheet that was not necessary**
-
-**Formula < and <= and >, etc. **
-
-Sheet creation
 
 ## Results
 
