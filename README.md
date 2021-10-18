@@ -5,7 +5,7 @@
   
 
 ### 
-  The purpose of this project is to provide our customer, Louise, with an analysis of Kickstarter campaign data relevant to her areas of interest: campaign outcomes by launch date and campaign outcomes by funding goals. Because Louise's theater campaign for her own play, *Fever*, is very close to its funding goal, she is very interested in learning more about how her campaign is fairing compared to historical campaigns. 
+  The purpose of this project is to provide our customer, Louise, with an analysis of Kickstarter campaign data relevant to her areas of interest: campaign outcomes by launch date and campaign outcomes by funding goals. Because Louise's theater campaign for her own play, *Fever*, is very close to its funding goal, she has become interested in learning more about how her campaign is fairing compared to historical campaigns. 
 
 ## Analysis and Challenges
 
@@ -22,7 +22,7 @@
   
   Checking this output against the raw dataset, I was confident that I understood the COUNTIFS function well enough to continue with the other ranges. Most of the Kickstarter goal ranges, however, required at least four arguments, and I ended up with the following formula template (after some testing, more on this below...) to adjust as needed: 
 
-`=COUNTIFS(Kickstarter!$D:$D,"<5000",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"failed",Kickstarter!$R:$R,"plays")` 
+  `=COUNTIFS(Kickstarter!$D:$D,"<5000",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"failed",Kickstarter!$R:$R,"plays")` 
 
   Having confirmed the formulae in my data table, I moved on to preparing the line graph to visualize these data, which required some adjustment to the "Series" (y-axis) and "Categories" (x-axis) data. Initially, creating a line graph pulled in all of the data sources in the data table. I was able to adjust the data sources to isolate for only "successful," "failed," and "canceled" campaigns by right clicking on the plot area for this graph to adjust the data sources. Ultimately, I ended up with the following visual representation of the data for outcomes versus launch date: 
 
@@ -50,10 +50,14 @@
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
-### 
+
+1) The mean for the percentage of successful campaigns in a given month is 60.56%, and May and June provide a 66.87% and 65.36% success rate, respectively. It will be important to have a campaign ready to launch by May 1st in order to take full advantage of this opportunity. 
+
+2) If the campaign is only going to be ready to begin in December, then the launch should be delayed until at least January (if not February) in order to guarantee the best chance of success on the most convenient timetable. Postponing the launch of the campaign from December to January yields a 9% increase in success rate. 
 
 - What can you conclude about the Outcomes based on Goals?
 
 - What are some limitations of this dataset?
 
+This dataset does not give granular data on when each donation to a particular campaign was amde, only when a campaign was launched and when it ended. A fuller dataset with information on each individual donation wo8uld
 - What are some other possible tables and/or graphs that we could create?
