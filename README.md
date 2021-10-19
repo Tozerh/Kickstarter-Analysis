@@ -53,19 +53,19 @@
 
 1) The mean for the percentage of successful campaigns in a given month is 60.56%, and May and June provide a 66.87% and 65.36% success rate, respectively. It will be important to have a campaign ready to launch by May 1st in order to take full advantage of this opportunity. 
 
-2) If the campaign is only going to be ready to begin in December, then the launch should be delayed until at least January (if not February) in order to guarantee the best chance of success on the most convenient timetable. Postponing the launch of the campaign from December to January yields a 9% increase in success rate. 
+2) If the campaign is only going to be ready to begin in December, then the launch should be delayed until at least January (if not February) in order to guarantee the best chance of success on the most convenient timetable. Postponing the launch of the campaign from December to January yields an 18% increase in success rate. 
 
 - What can you conclude about the Outcomes based on Goals?
-  Success rates are overall higher than failure rates in these two funding goal ranges:  $0 to $14,999 and $35,000 to $44,999. That higher, range however, contains a tiny number of campaigns (only 9 total projects), so I would not recommend any action in that range based on such a small sample size. The "sweet spot" for funding goal range is in the $0 to $4,999 range, where we see an average success rate of %74.5. We would definitely want to counsel our client to keep their campaign in this lower range, if possible. 
+  Success rates are overall higher than failure rates in these two funding goal ranges:  $0 to $14,999 and $35,000 to $44,999. That higher, range however, contains a small number of campaigns (only 9 total projects), so I would not recommend any action in that range based on this small sample size. The "sweet spot" for funding goal range is in the $0 to $4,999 range, where we see an average success rate of %74.5. We would definitely want to counsel our client to keep their campaign in this lower range, if possible. 
   
 
 - What are some limitations of this dataset?
 
-1) This dataset does not give granular data on when each individual donation to a particular campaign was made, only when a campaign was launched and when it ended. A dataset that includes information on each individual donation to each campaign would allow for more in-depth funding analysis. For example, knowing which months are most conducive to eliciting donations for a given subcategory would facilitate budgeting out a communications strategy for the life of a given campaign. 
+1) This dataset does not provide data on when each individual donation to a particular campaign was made, only when a campaign was launched and when it ended. A dataset that includes information on the timing of each individual donation to each campaign would allow for more in-depth funding analysis. For example, knowing which months are most conducive to eliciting donations for a given subcategory would facilitate budgeting out a communications strategy for the life of a given campaign. 
 
-2) This dataset also is only current through 2017, making it more difficult to identify changes in trends in the last four years. Finding a similar dataset that is more current would allow us to make better recommendations for a campaign launching this year. 
+2) This dataset is only current through 2017, making it more difficult to identify changes in trends in the last four years. Finding a similar dataset that is more current would allow us to make better recommendations for a campaign launching this year. 
 
-3) This dataset is limited to one crowd-funding platform, Kickstarter. Finding a parallel dataset from a different crowd-funding platform would allow for richer comparison and would give a better view of the crowd-funding landscape, allowing us to make stronger recommendations. 
+3) This dataset is limited to one crowd-funding platform, Kickstarter. Finding parallel datasets from different crowd-funding platforms would allow for richer comparison and would give a better view of the crowd-funding landscape, allowing us to make stronger recommendations. 
 
 - What are some other possible tables and/or graphs that we could create?
 
