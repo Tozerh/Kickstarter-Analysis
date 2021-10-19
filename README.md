@@ -65,4 +65,4 @@ This dataset does not give granular data on when each donation to a particular c
 
 I think that a percentages table to be helpful in interpreting the graph that we created for this project. Additionally, adding in a few descriptive statistics below the table helped me to think about this project a little more deeply. Here is an example of this possible table, for reference: 
 
-![Percentages Table and Descriptive Stats](
+![Percentages Table and Descriptive Stats](https://github.com/Tozerh/Kickstarter-Analysis/blob/main/Descriptive%20Statistics%20and%20Percentages%20Table.PNG)
