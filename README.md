@@ -56,13 +56,19 @@
 2) If the campaign is only going to be ready to begin in December, then the launch should be delayed until at least January (if not February) in order to guarantee the best chance of success on the most convenient timetable. Postponing the launch of the campaign from December to January yields a 9% increase in success rate. 
 
 - What can you conclude about the Outcomes based on Goals?
+  Success rates are overall higher than failure rates in these two funding goal ranges:  $0 to $14,999 and $35,000 to $44,999. That higher, range however, contains a tiny number of campaigns (only 9 total projects), so I would not recommend any action in that range based on such a small sample size. The "sweet spot" for funding goal range is in the $0 to $4,999 range, where we see an average success rate of %74.5. We would definitely want to counsel our client to keep their campaign in this lower range, if possible. 
+  
 
 - What are some limitations of this dataset?
 
-This dataset does not give granular data on when each donation to a particular campaign was amde, only when a campaign was launched and when it ended. A fuller dataset with information on each individual donation to each campaign would allow for more in-depth funding analysis. For example, knowing which months are most conducive to eliciting donations would make it a lot easier to budget out a communications strategy for the life of a given campaign. 
+1) This dataset does not give granular data on when each individual donation to a particular campaign was made, only when a campaign was launched and when it ended. A fuller dataset with information on each individual donation to each campaign would allow for more in-depth funding analysis. For example, knowing which months are most conducive to eliciting donations would make it a lot easier to budget out a communications strategy for the life of a given campaign. 
+
+2) This dataset also is only current through 2017, making it more difficult to identify changes in trends in the last four years. Finding a similar dataset that is more current would allow us to make better recommendations for a campaign launching this year. 
+
+3) This dataset is limited to one crowd-funding platform. Finding a parallel dataset from a different crowd-funding platform would allow for richer comparison and would give a more full view of the crowd-funding landscape. 
 
 - What are some other possible tables and/or graphs that we could create?
 
-I think that a percentages table to be helpful in interpreting the graph that we created for this project. Additionally, adding in a few descriptive statistics below the table helped me to think about this project a little more deeply. Here is an example of this possible table, for reference: 
+I think that a percentages table could be helpful in interpreting the graph that we created for the outcomes by launch date deliverable. Additionally, adding in a few descriptive statistics below the table might help us think about this piece of the project a little more clearly. Here is an example of this possible table, for reference: 
 
-![Percentages Table and Descriptive Stats](https://github.com/Tozerh/Kickstarter-Analysis/blob/main/Descriptive%20Statistics%20and%20Percentages%20Table.PNG)
+![Percentages Table and Descriptive Stats](https://github.com/Tozerh/Kickstarter-Analysis/blob/main/Percentages.PNG)
