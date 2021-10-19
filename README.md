@@ -30,10 +30,10 @@
 
 ### Challenges and Difficulties Encountered
 
-1)**Creating a sheet that was not necessary**:
+1) **Creating a sheet that was not necessary**:
   For the outcomes based on launch date analysis, I started by creating a new sheet that was a copy/paste of the subset of data present after filtering. This was not necessary, and I could have just created a pivot table and then narrowed my scope using filters. The data output was ultimately the same for my graph, but I could have been a bit more efficient had I not created a new sheet. 
 
-2)**Formula Consistency**: 
+2) **Formula Consistency**: 
   Doing a quality check of my formulae for the outcomes based on goals, I found that the total number of projects in my data table was not matching the total projects in the raw data. I was able to find the culprit: inconsistent ranges for my COUNTIFS criteria. E.g.: 
   
   For the range of goals $1000 - $4999, I intially had this formula: 
@@ -61,14 +61,16 @@
 
 - What are some limitations of this dataset?
 
-1) This dataset does not give granular data on when each individual donation to a particular campaign was made, only when a campaign was launched and when it ended. A fuller dataset with information on each individual donation to each campaign would allow for more in-depth funding analysis. For example, knowing which months are most conducive to eliciting donations would make it a lot easier to budget out a communications strategy for the life of a given campaign. 
+1) This dataset does not give granular data on when each individual donation to a particular campaign was made, only when a campaign was launched and when it ended. A dataset that includes information on each individual donation to each campaign would allow for more in-depth funding analysis. For example, knowing which months are most conducive to eliciting donations for a given subcategory would facilitate budgeting out a communications strategy for the life of a given campaign. 
 
 2) This dataset also is only current through 2017, making it more difficult to identify changes in trends in the last four years. Finding a similar dataset that is more current would allow us to make better recommendations for a campaign launching this year. 
 
-3) This dataset is limited to one crowd-funding platform. Finding a parallel dataset from a different crowd-funding platform would allow for richer comparison and would give a more full view of the crowd-funding landscape. 
+3) This dataset is limited to one crowd-funding platform, Kickstarter. Finding a parallel dataset from a different crowd-funding platform would allow for richer comparison and would give a better view of the crowd-funding landscape, allowing us to make stronger recommendations. 
 
 - What are some other possible tables and/or graphs that we could create?
 
-I think that a percentages table could be helpful in interpreting the graph that we created for the outcomes by launch date deliverable. Additionally, adding in a few descriptive statistics below the table might help us think about this piece of the project a little more clearly. Here is an example of this possible table, for reference: 
+I think that a percentages table could be helpful in interpreting the graph that we created for the outcomes by launch date deliverable. Additionally, adding in a few descriptive statistics below this table might help us think about this piece of the project a little more clearly. Here is an example of this possible table, for reference: 
 
 ![Percentages Table and Descriptive Stats](https://github.com/Tozerh/Kickstarter-Analysis/blob/main/Percentages.PNG)
+
+In conjunction with the graph that we produced for outcomes by launch date, this table shows that there is less variance than one might assume by looking at our graph, which has dramatic peaks and valleys. 
