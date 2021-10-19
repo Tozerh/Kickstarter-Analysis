@@ -44,8 +44,7 @@
   
   `=COUNTIFS(Kickstarter!$D:$D,"<5000",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"failed",Kickstarter!$R:$R,"plays")`, 
    
-  which achieved the desired range. 
-
+  which achieved the desired result.
 
 ## Results
 
