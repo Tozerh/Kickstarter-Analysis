@@ -24,17 +24,21 @@
 
   `=COUNTIFS(Kickstarter!$D:$D,"<5000",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"failed",Kickstarter!$R:$R,"plays")` 
 
-  Having confirmed the formulae in my data table, I moved on to preparing the line graph to visualize these data, which required some adjustment to the "Series" (y-axis) and "Categories" (x-axis) data. Initially, creating a line graph pulled in all of the data sources in the data table. I was able to adjust the data sources to isolate for only "successful," "failed," and "canceled" campaigns by right clicking on the plot area for this graph to adjust the data sources. Ultimately, I ended up with the following visual representation of the data for outcomes versus launch date: 
+  Having confirmed the COUNTIFS formulae in my data table, I also prepared the "Total Projects," "Percentage Successful," "Percentage Failed," and "Percentage Canceled" columns. Once the formulae were all ready to go, I moved on to preparing the line graph to visualize these data, which required some adjustment to the "Series" (y-axis) and "Categories" (x-axis) data. 
+  
+  Initially, creating a line graph from the data table pulled in all of the data sources in the data table, including columns that I was not interested in displaying. I was able to adjust the data sources to isolate for only "successful," "failed," and "canceled" campaigns by right clicking on the plot area for this graph to adjust the data sources. Ultimately, I ended up with the following visual representation of the data for outcomes versus launch date: 
 
    ![Outcomes versus Goal](https://github.com/Tozerh/Kickstarter-Analysis/blob/main/Resources/Outcomes_versus_Goals.png) 
 
 ### Challenges and Difficulties Encountered
 
 1) **Creating a sheet that was not necessary**:
-  For the outcomes based on launch date analysis, I started by creating a new sheet that was a copy/paste of the subset of data present after filtering. This was not necessary, and I could have just created a pivot table and then narrowed my scope using filters. The data output was ultimately the same for my graph, but I could have been a bit more efficient had I not created a new sheet. 
+  For the outcomes based on launch date analysis, I started by creating a new sheet that was a copy/paste of the subset of data present after filtering. This was not necessary, however, and I could have just created a pivot table from the master data sheet and then narrowed my scope using filters in the pivot table. The data output from this new sheet was ultimately the same for my graph, but I could have been a bit more efficient had I not created a new sheet. 
 
 2) **Formula Consistency**: 
-  Doing a quality check of my formulae for the outcomes based on goals, I found that the total number of projects in my data table was not matching the total projects in the raw data. I was able to find the culprit: inconsistent ranges for my COUNTIFS criteria. E.g.: 
+  Doing a quality check of my formulae for the outcomes based on goals, I found intially that the total number of projects in my data table was not matching the total projects in the raw data. I was able to identify the culprit: inconsistent ranges for my COUNTIFS criteria. 
+  
+  E.g.: 
   
   For the range of goals $1000 - $4999, I intially had this formula: 
   
@@ -52,10 +56,10 @@
 
 1) The mean for the percentage of successful campaigns in a given month is 60.56%, and May and June provide a 66.87% and 65.36% success rate, respectively. It will be important to have a campaign ready to launch by May 1st in order to take full advantage of this opportunity. 
 
-2) If the campaign is only going to be ready to begin in December, then the launch should be delayed until at least January (if not February) in order to guarantee the best chance of success on the most convenient timetable. Postponing the launch of the campaign from December to January yields an 18% increase in success rate. 
+2) If, for some reason,the campaign is only going to be ready to begin in December, then the launch should be delayed until at least January (if not February) in order to guarantee the best chance of success on the most convenient timetable. Postponing the launch of the campaign from December to January yields an 18% increase in success rate. 
 
 - What can you conclude about the Outcomes based on Goals?
-  Success rates are overall higher than failure rates in these two funding goal ranges:  $0 to $14,999 and $35,000 to $44,999. That higher, range however, contains a small number of campaigns (only 9 total projects), so I would not recommend any action in that range based on this small sample size. The "sweet spot" for funding goal range is in the $0 to $4,999 range, where we see an average success rate of %74.5. We would definitely want to counsel our client to keep their campaign in this lower range, if possible. 
+  Success rates are overall higher than failure rates in these two funding goal ranges:  $0 to $14,999 and $35,000 to $44,999. That higher funding goal range contains only a small number of campaigns (only 9 total projects), so I would not recommend any action in that range given this small sample size. The sweet spot for funding goal range is from $0 to $4,999, where we see an average success rate of %74.5. We would definitely want to counsel our client to keep their campaign in this lower range, if possible. 
   
 
 - What are some limitations of this dataset?
